@@ -16,7 +16,7 @@ print(f"{number1}\n{number2}\n{number3}\n{number4}")
 print("amount", amount := number1 + number2 + number3 + number4)
 
 # Task 2.2
-num = int(input('Enter a five-digit number: '))  # 56198
+num = int(input('Enter a five-digit number: '))
 
 # variant 1
 num1 = num // 10000
