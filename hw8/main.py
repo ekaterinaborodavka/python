@@ -30,16 +30,19 @@ print("ОК")
 
 # Task 8.3
 def find_unique_value(some_list):
-   counts = {}
-   for num in some_list:
-       if num in counts:
-           counts[num] += 1
-       else:
-           counts[num] = 1
-
-   for num in some_list:
-       if counts[num] == 1:
-           return num
+    for num in some_list:
+        if some_list.count(num) == 1:
+            return num
+   # counts = {}
+   # for num in some_list:
+   #     if num in counts:
+   #         counts[num] += 1
+   #     else:
+   #         counts[num] = 1
+   #
+   # for num in some_list:
+   #     if counts[num] == 1:
+   #         return num
 
 assert find_unique_value([1, 2, 1, 1]) == 2, 'Test1'
 assert find_unique_value([2, 3, 3, 3, 5, 5]) == 2, 'Test2'
