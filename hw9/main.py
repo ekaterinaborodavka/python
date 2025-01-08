@@ -20,7 +20,7 @@ def difference (*args):
     """
     Finds the difference between the minimum and maximum number.
 
-    :args args: Set of numbers (float or int).
+    :param args: Set of numbers (float or int).
     :return: Difference between the minimum and maximum as a number.
     """
     numbers = list(args)
