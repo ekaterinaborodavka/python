@@ -1,15 +1,15 @@
 # написати скрипт для видалення всіх файлів вказаної директорії
 import os
 
-# folder = "extratask"
-#
-# def delete_files_in_dir(dir_name):
-#     if os.path.exists(dir_name):
-#         files = os.listdir(dir_name)
-#         for file in files:
-#             os.remove(dir_name + "/" + file)
-#
-# delete_files_in_dir(folder)
+folder = "extratask"
+
+def delete_files_in_dir(dir_name):
+    if os.path.exists(dir_name):
+        files = os.listdir(dir_name)
+        for file in files:
+            os.remove(dir_name + "/" + file)
+
+delete_files_in_dir(folder)
 
 
 # создать телефонную книгу с сохранением в файл txt
